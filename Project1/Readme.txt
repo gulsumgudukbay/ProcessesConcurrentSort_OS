@@ -1,0 +1,1 @@
+For part A, the csort.c program runs and outputs correctly in a linux machine when run regularly. However, if you want to test it in Valgrind, the execution creates a segmentation fault because of the Valgrind bug with the fprintf library function. Before outputting the sorted numbers, the program works just fine. For your information. 
